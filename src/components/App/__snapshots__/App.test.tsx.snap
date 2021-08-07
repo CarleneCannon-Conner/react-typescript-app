@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> Snapshot test 1`] = `
+<div
+  className="App"
+>
+  <p>
+    Hi, 
+    someone
+    , your user type is 
+    admin
+    .
+  </p>
+  <p>
+    Sat, 07 Aug 2021 16:44:35 GMT
+  </p>
+  <input
+    onChange={[Function]}
+    placeholder="Enter your message here"
+    type="text"
+    value=""
+  />
+  <p>
+    your message: 
+    
+  </p>
+  <a
+    href="/userlist"
+    onClick={[Function]}
+  >
+    User List
+  </a>
+</div>
+`;
