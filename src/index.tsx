@@ -5,7 +5,7 @@ import { store } from './store'
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './index.css';
 import App from './App';
-import UserList from './components/UserList';
+import UserList from './components/UserList/UserList';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(

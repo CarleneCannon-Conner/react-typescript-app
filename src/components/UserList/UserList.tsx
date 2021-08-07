@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { User } from '../store/user/UserTypes'
-import { getFriendsList as getFriendsListAction } from '../store/user/UserActions'
+import { User } from '../../store/user/UserTypes'
+import { getFriendsList as getFriendsListAction } from '../../store/user/UserActions'
 import { AnyAction } from 'redux'
 import { ThunkDispatch } from 'redux-thunk'
 import { connect, MapDispatchToProps, MapStateToProps } from 'react-redux'
-import { AppState } from '../store/RouteReducer'
+import { AppState } from '../../store/RouteReducer'
 import styled from 'styled-components'
 
 const CenterContent = styled.div`
